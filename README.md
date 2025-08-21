@@ -1,44 +1,20 @@
 # Q-Learning CartPole Simulation
 
-This repository contains an implementation of a reinforcement learning agent using the Q-Learning algorithm to solve the classic **CartPole-v1** control problem from OpenAI Gym. The objective of the CartPole task is to balance a pole on a moving cart by learning an optimal action policy through trial and error.
+An advanced reinforcement learning implementation of Q-Learning to solve the CartPole-v1 environment from OpenAI Gym. This project features discrete state space approximation for effective policy learning, with support for model persistence and performance visualization.
 
-This project demonstrates practical knowledge of model-free reinforcement learning, environment interaction, reward-based learning, and performance tracking. It is ideal for anyone studying or building projects in artificial intelligence and machine learning.
-
----
-
-## Key Features
-
-- Custom implementation of the Q-Learning algorithm
-- Integration with OpenAI Gym (CartPole-v1)
-- Discretization of continuous state space for Q-table use
-- Training and evaluation framework with logging
-- Q-table model saving and loading support
-- Optional result visualization using matplotlib
+Designed to showcase practical expertise in model-free RL algorithms, environment interaction, and optimization of hyperparameters for control tasks.
 
 ---
 
-## Installation and Requirements
+**Key aspects:**  
+- Tabular Q-Learning with state discretization  
+- Configurable learning parameters (alpha, gamma, epsilon decay)  
+- Integration with OpenAI Gym’s CartPole environment  
+- Model saving/loading and training visualization  
 
-This project requires Python 3.x and the following dependencies:
+---
 
-- numpy
-- gym (or gymnasium)
-- matplotlib (optional, for visualization)
+## Usage
 
-You can install them using:
-
-```bash
-pip install numpy gym matplotlib
-
-#for gymnasium:
-```bash
-pip install numpy gymnasium matplotlib
-
-#run this to train the agent :
 ```bash
 python ai_runner.py
-
-
-
-
-
